@@ -1,0 +1,49 @@
+/**
+ * NAME: 
+ * DATE:
+ * Disco Time
+ * Computing Kids Interview
+ */
+
+ /*************** IMPORTANT STYLES ***********************/
+
+.disco-time {
+  background-image: url(img/dance-party.gif);
+  background-size: cover;
+}
+
+.hidden {
+  display: none;
+}
+
+/**********************************************************/
+
+body {
+  background: black;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+main {
+  text-align: center;
+}
+
+footer {
+  position: absolute;
+  bottom: 0px;
+}
+
+button {
+  font-size: 25pt;
+  color: purple;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+button:hover {
+  cursor: pointer;
+}
